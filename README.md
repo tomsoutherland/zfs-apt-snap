@@ -11,6 +11,6 @@ There is no install script but installation is simple.
         $ cp zfs-apt-snap.py /usr/local/sbin/zfs-apt-snap.py  
         $ chmod +x /usr/local/sbin/zfs-apt-snap.py  
 
-There are a couple of items you man wish to tune in the zfs-apt-snap.py script.  
+There are a couple of items you may wish to tune in the zfs-apt-snap.py script.  
   1. SNAPPURGE = 5  # delete snapshots older than SNAPPURGE days  
   2. SNAPSKIP = 120 # prevent new snaps if last snap is less than SNAPSKIP seconds  
