@@ -1,0 +1,1 @@
+DPkg::Pre-Invoke { "/usr/local/sbin/zfs-apt-snap.py"; };
